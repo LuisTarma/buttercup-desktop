@@ -14,11 +14,18 @@
       "file": "Archivo",
       "new": "Nuevo archivo",
       "open": "Abrir archivo",
+      "search": "Buscar en el Archivo",
       "connect-cloud-sources": "Conectar fuentes en la nube",
       "import": {
         "import": "Importar",
         "import-from-type": "De un archivo {{name}} (.{{extension}})",
-        "import-to-type": "A {{name}}"
+        "import-to-type": "A {{name}}",
+        "no-available-archives": "Ningun archivo disponible al cual importar."
+      },
+      "export": {
+        "export": "Exportar",
+        "export-archive": "Exportar {{name}} a CSV",
+        "no-available-archives": "Ningun archivo disponible para exportar"
       },
       "close": "Cerrar"
     },
@@ -42,9 +49,11 @@
       "view": "Ver",
       "condensed-sidebar": "Barra lateral reducida",
       "language": "Idioma",
+      "enable-tray-icon": "Mostrar en la barra de menu",
       "reload": "Cargar de nuevo",
       "forcereload": "Forzar carga de nuevo",
       "toggledevtools": "Herramientas para desarrolladores",
+      "togglefullscreen": "Ajustar a Pantalla Completa",
       "auto-hide-menubar": "Ocultar automáticamente la barra de menú"
     },
     "window": {
@@ -54,12 +63,24 @@
       "zoom": "Acercar",
       "front": "Traer todo al frente"
     },
+    "system": {
+      "system": "Sistema",
+      "enable-browser-access": "Habilitar Acceso al Navegador"
+    },
     "help": {
       "help": "Ayuda",
       "visit-our-website": "Visita nuestra web",
       "privacy-policy": "Política de privacidad",
       "view-changelog-for-v": "Ver cambios en v{{currentVersion}}"
+    },
+    "tray": {
+      "quit": "Salir",
+      "open": "Abrir Buttercup"
     }
+  },
+  "archive-search": {
+    "searchterm": "Buscar...",
+    "nothing-found": "Nada encontrado"
   },
   "archive": {
     "add-archive": "Añadir archivo",
@@ -73,8 +94,10 @@
   "archive-menu": {
     "unlock": "Desbloquear",
     "change-color": "Cambiar color",
+    "change-password": "Cambiar Contraseña",
     "import": "Importar",
     "import-from-type": "De un archivo {{name}} (.{{extension}})",
+    "export": "Exportar",
     "archive-remove-with-name": "Eliminar {{name}}",
     "open": "Abrir",
     "lock": "Bloquear"
@@ -87,6 +110,9 @@
     "connect-to-dropbox": "Conectar a Dropbox",
     "authenticate-with-dropbox": "Autentificar con Dropbox",
     "dropbox-description-text": "Conecta Buttercup a tu cuenta de Dropbox para leer y guardar tus archivos. <br />No vamos a guardar tu usuario ni tu contraseña.",
+    "connect-to-googledrive": "Conectar a Google Drive",
+    "authenticate-with-googledrive": "Autentificar con Google Drive",
+    "googledrive-description-text": "Conectar Buttercup a tu cuenta de Google Drive para leer y guardar tus archivos.<br />No vamos a guardar tu usuario ni tu contraseña.",
     "connect-to-wedav": "Conectar a un servidor {{title}}",
     "username": "Usuario",
     "password": "Contraseña",
@@ -128,8 +154,12 @@
     "delete": "Eliminar",
     "entry-inputs-empty-info": "Por favor, introduce al menos un título.",
     "entry-title-empty-info": "Por favor, introduce un título.",
+    "custom-fields-label-duplicate": "No puedes tener campos personalizados con la misma etiqueta",
     "custom-fields-label-empty-info": "Has olvidado añadir una etiqueta a uno o a varios campos personalizados.",
-    "are-you-sure-question": "¿Estás seguro?"
+    "are-you-sure-question": "¿Estás seguro?",
+    "displaying-entries": "Mostrando {{count}} entradas",
+    "no-value": "Valor vacio",
+    "quit-unsave-entry": "Perderás tus cambios, ¿Estas seguro?"
   },
   "entry-menu": {
     "copy-to-clipboard": "Copiar al portapapeles",
@@ -185,6 +215,7 @@
   },
   "password-dialog": {
     "master-password": "Contraseña maestra",
+    "new-password": "Nueva Contraseña",
     "password": "Contraseña",
     "confirm-password": "Confirma la contraseña",
     "confirm": "Confirmar",
@@ -204,6 +235,11 @@
   },
   "update": {
     "installing": "Instalando",
-    "update-available-message": "Buttercup {{version}} está disponible. Haz click aquí para instalar ahora."
+    "update-available-message": "Buttercup {{version}} está disponible. Haz click aquí para instalar ahora.",
+    "new-version-available": "Una nueva version de Buttercup esta disponible!",
+    "not-now": "Ahora no",
+    "download": "Descargar e Instalar",
+    "download-manual": "Abrir pagina de lanzamientos",
+    "release-notes": "Notas de la versión:"
   }
 }
